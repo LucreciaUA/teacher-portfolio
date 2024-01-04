@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { About } from './about/about';
 import { Contacts } from './contacts/contacts';
 import { Gallery } from './photogallery/photogallery';
@@ -13,7 +13,8 @@ export const App = () => {
     <>
       <Navigation/>
        <main>
-      <Routes>
+        <Routes>
+          <Route path="*" element={<Navigate to="/" replace />} />
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
         <Route path='/portfolio' element={<Portfolio/>}/>
