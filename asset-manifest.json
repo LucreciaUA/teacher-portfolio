@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/teacher-portfolio/static/css/main.7dc12680.css",
+    "main.js": "/teacher-portfolio/static/js/main.e6facdd6.js",
+    "index.html": "/teacher-portfolio/index.html",
+    "main.7dc12680.css.map": "/teacher-portfolio/static/css/main.7dc12680.css.map",
+    "main.e6facdd6.js.map": "/teacher-portfolio/static/js/main.e6facdd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc12680.css",
+    "static/js/main.e6facdd6.js"
+  ]
+}
