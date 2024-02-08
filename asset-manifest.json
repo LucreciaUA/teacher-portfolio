@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/teacher-portfolio/static/css/main.f959e459.css",
+    "main.css": "/teacher-portfolio/static/css/main.1ad82fa1.css",
     "main.js": "/teacher-portfolio/static/js/main.234e9472.js",
     "static/media/PoliukLV.png": "/teacher-portfolio/static/media/PoliukLV.95a14488c9c3a990fd58.png",
     "static/media/math-background-photo-2.jpg": "/teacher-portfolio/static/media/math-background-photo-2.a5b615e7810abb821fbc.jpg",
     "index.html": "/teacher-portfolio/index.html",
-    "main.f959e459.css.map": "/teacher-portfolio/static/css/main.f959e459.css.map",
+    "main.1ad82fa1.css.map": "/teacher-portfolio/static/css/main.1ad82fa1.css.map",
     "main.234e9472.js.map": "/teacher-portfolio/static/js/main.234e9472.js.map"
   },
   "entrypoints": [
-    "static/css/main.f959e459.css",
+    "static/css/main.1ad82fa1.css",
     "static/js/main.234e9472.js"
   ]
 }
