@@ -29,7 +29,7 @@ code {
 }
 
 #root{
-  width: 320px;
+  min-width: 320px;
 
 margin: 0;
 
@@ -37,7 +37,7 @@ margin: 0;
 
 @media only screen and (min-width: 680px) {
   #root {
-      width: 680px;
+      min-width: 680px;
   
       margin: 0;
   
