@@ -1,0 +1,12 @@
+.email {
+    fill: #fff
+}
+
+.email:hover {
+
+    fill: #01d1ed;
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 4px rgba(93, 92, 92, 0.744));
+    transition: transform 450ms ease-in-out;
+
+}

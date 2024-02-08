@@ -1,7 +1,7 @@
 main{
     width: 100%;
-    padding: 10px;
+    height: 100%;
+    padding: 20px;
     background-color: rgb(250, 243, 235);
-    height: 100vh;
-    box-sizing: border-box;
+    margin: 0;
 }

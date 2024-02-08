@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(./math-background-photo-2.jpg);
+    background-position: center;
+    color: var(--text-color-light);
+    
+}
+.holder{
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: var(--text-shadow-plain)
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.header h3{
+    font-size: 24px;
+       
+}
+
+
+@media only screen and (min-width: 680px) {
+    .holder {
+            padding: 40px 0;
+            text-align: center;
+            text-shadow: var(--text-shadow-plain)
+        }
+    
+        .header h1 {
+            font-size: 35px;
+        }
+    
+        .header h3 {
+            font-size: 30px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    .holder {
+            padding: 50px 0;
+            text-align: center;
+            text-shadow: var(--text-shadow-plain)
+        }
+    
+        .header h1 {
+            font-size: 45px;
+        }
+    
+        .header h3 {
+            font-size: 35px;
+}}

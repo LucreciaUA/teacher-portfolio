@@ -1,16 +1,21 @@
 import React from "react";
 import css from './contacts.module.css'
+import { ContactForm } from "components/contact-form/contact-form";
+
+
 
 export const Contacts = () => {
+      
+
     return (
-        <>
-            <p>text</p>
-        <ul>
-            <li className={css.contact}><span>Телефон</span></li>
-            <li className={css.contact}><span>Електронна пошта</span></li>
-            <li className={css.contact}><span>Skype</span></li>
-        </ul>
-        </>
-        
+    <div>
+        <h2>Зворотній звʼязок</h2>
+            <div className={css.wrap}>
+                <ContactForm/>
+                
+            
+            </div>
+            
+    </div>
     )
 }

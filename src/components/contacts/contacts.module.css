@@ -1,0 +1,17 @@
+.wrap{
+    display: flex;
+    gap: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.userPhoto{
+    height: auto;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.wrap h2{
+    font-size: 30px;
+}
+
+.wrap h3 {
+    font-size: 25px;
+}
+
+.wrap h4 {
+    font-size: 20px;
+}
+
+.credo{
+    padding: 10px 20px 0 0;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.accent{
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 680px) {
+    .container {
+            flex-direction: row;
+    
+        }
+   
+.userPhoto {
+        height: 350px;
+    }
+
+    .wrap {
+        gap: 20px;
+    }
+
+    .wrap h2 {
+        font-size: 35px;
+    }
+
+    .wrap h3 {
+        font-size: 30px;
+    }
+
+    .wrap h4 {
+        font-size: 25px;
+    }
+
+    .credo {
+        padding: 10px 20px 0 0;
+        font-size: 20px;
+    
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+.userPhoto {
+        height: 700px;
+    }
+
+    .wrap {
+    
+        gap: 20px;
+    }
+
+    .wrap h2 {
+        font-size: 45px;
+    }
+
+    .wrap h3 {
+        font-size: 40px;
+    }
+
+    .wrap h4 {
+        font-size: 35px;
+    }
+
+    .credo {
+        font-size: 30px;
+
+    }
+
+}

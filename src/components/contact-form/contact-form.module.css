@@ -1,0 +1,55 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input{
+    font-size: 20px;
+    line-height: 120%;
+    padding: 2px 5px;
+}
+
+.textarea{
+    min-height: 110px;
+    font-size: 20px;
+    line-height: 120%;
+    padding: 5px;
+    max-width: 320px;
+}
+
+.submit{
+background: linear-gradient(to right, #19ca81, #90f1c7);
+    background-color: #19ca81;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 14px 15px;
+    border: 0px solid #263426;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 0px #306450;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.submit:hover {
+    background: linear-gradient(to right, #2c9561, #60e6ac);
+    background-color: #54d093;
+    box-shadow: 0px 0px 20px 0px #306450;
+    transition: transform 450ms ease-in-out;
+}
+
+.submit:active {
+    transform: scale(0.9);
+    transition: transform 450ms ease-in-out;
+}
+
+.errorsmsg {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    
+}
