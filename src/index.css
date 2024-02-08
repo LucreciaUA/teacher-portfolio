@@ -29,7 +29,7 @@ code {
 }
 
 #root{
-  min-width: 320px;
+  width: 100vw;
 
 margin: 0;
 
