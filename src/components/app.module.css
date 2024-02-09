@@ -4,4 +4,6 @@ main{
     padding: 20px;
     background-color: rgb(250, 243, 235);
     margin: 0;
+    display: flex;
+    flex-grow: 1;
 }

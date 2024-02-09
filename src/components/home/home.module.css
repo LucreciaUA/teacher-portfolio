@@ -5,7 +5,7 @@
 }
 
 .userPhoto{
-    height: auto;
+    width: 100%;
 }
 
 .wrap{
@@ -49,6 +49,7 @@
    
 .userPhoto {
         height: 350px;
+        width: auto;
     }
 
     .wrap {

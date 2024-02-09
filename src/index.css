@@ -21,7 +21,13 @@ body {
   color: var(--text-color-main);
 }
 
-
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -30,9 +36,12 @@ code {
 
 #root{
   width: 100vw;
-
+min-height: 100vh;
 margin: 0;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 @media only screen and (min-width: 680px) {
