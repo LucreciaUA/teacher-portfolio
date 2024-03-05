@@ -4,7 +4,7 @@ import { Links } from "components/links/links";
 import { Menu } from "components/menu/menu";
 
 
-export const Header = () => {
+const Header = () => {
     return (
         <header className={css.header}>
             <div className={css.holder}>
@@ -17,3 +17,5 @@ export const Header = () => {
         </header>
     )
 }
+
+export default Header

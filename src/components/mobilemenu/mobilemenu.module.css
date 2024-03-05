@@ -1,4 +1,4 @@
-.container {
+.mobile {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,4 +10,14 @@
 
     transform: translateX(0);
     transition: transform 450ms ease-in-out;
+}
+
+.menuclose {
+    margin-left: auto;
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
 }

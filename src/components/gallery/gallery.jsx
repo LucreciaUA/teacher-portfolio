@@ -1,9 +1,13 @@
+import { GalleryLightbox } from "components/gallery-lightbox/gallery-lightbox";
 import React from "react";
 
-export const Gallery = () => {
+const Gallery = () => {
     return (
         <div>
-            <p>more data is comimg</p>
+            <h2>Galerry</h2>
+            <GalleryLightbox/>
         </div>
     )
 }
+
+export default Gallery

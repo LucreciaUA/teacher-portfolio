@@ -1,7 +1,7 @@
 import React from "react";
 import css from './about.module.css'
 
-export const About = () => {
+const About = () => {
     return (
         <ul>
             <li className={css.options}>Осіта
@@ -28,3 +28,5 @@ export const About = () => {
     )
     
 }
+
+export default About

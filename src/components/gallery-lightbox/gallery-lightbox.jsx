@@ -1,15 +1,14 @@
 
-
-import { LightboxModal } from 'components/lightbox-modal/lightbox-modal'
 import images from './diploma'
-import css from './swiper-diploma.module.css'
+import css from './gallery-lightbox.module.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { isImageOpen, modalOpen, selectImage } from "../../redux/lightboxSlicer";
 import { useCallback, useEffect } from 'react';
+import { GalleryModal } from 'components/gallery-modal/lightbox-modal';
 
 
 
-export const SwiperDiploma = () => {
+export const GalleryLightbox = () => {
     const isImage = useSelector(isImageOpen)
     const isOpen = useSelector(state => state.lightbox.isOpen)
     console.log(isOpen)
@@ -37,7 +36,7 @@ export const SwiperDiploma = () => {
                     <img src={process.env.PUBLIC_URL + image.path}
                         alt={image.name}
                         onClick={() => dispatch(handleClick(image))} />
-                    {isImage && <LightboxModal />}</li>
+                    {isImage && <GalleryModal />}</li>
             )}
        </ul>
    )

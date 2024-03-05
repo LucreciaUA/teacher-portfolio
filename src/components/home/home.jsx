@@ -2,7 +2,7 @@ import React from "react";
 import userPhoto from './PoliukLV.png'
 import css from './home.module.css'
 
-export const Home = () => {
+const Home = () => {
     return (
         <div className={css.container}>
             <img src={userPhoto} alt="user" className={css.userPhoto} /> 
@@ -20,3 +20,5 @@ export const Home = () => {
         </div>
     )
 }
+
+export default Home

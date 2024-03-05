@@ -10,15 +10,30 @@
 
     transform: translateX(0);
     transition: transform 450ms ease-in-out;
+ 
+}
+
+.holder{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
 }
 
 .modalimg{
     height: 90vh;
     width: auto;
-    margin: 0 auto;
+   
 }
 
 .close{
   margin: 0;
+ 
+}
 
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
 }

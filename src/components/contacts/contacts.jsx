@@ -4,7 +4,7 @@ import { ContactForm } from "components/contact-form/contact-form";
 
 
 
-export const Contacts = () => {
+const Contacts = () => {
       
 
     return (
@@ -19,3 +19,5 @@ export const Contacts = () => {
     </div>
     )
 }
+
+export default Contacts

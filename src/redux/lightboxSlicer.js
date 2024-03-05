@@ -8,14 +8,16 @@ const lightboxSlicer = createSlice({
     },
 
     reducers: {
-        modalOpen: state => {
-            state.isOpen=true
+        modalOpen: (state) => {
+            state.isOpen = true
+            
         },
         modalClose: state => {
             state.isOpen=false
         },
-        modalTogle: state => {
-            state.isOpen=!state.isOpen
+        modalTogle: (state) => {
+            state.isOpen = !state.isOpen
+            
         },
         selectImage: (state, action) => {
             state.selectedImage = action.payload; 
